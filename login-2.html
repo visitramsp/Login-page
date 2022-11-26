@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background: rgb(216, 213, 213);
+        }
+        .outer{
+            height: 460px;
+            width: 500px;
+            background: white;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 3px 3px white;
+        }
+        .top{
+            height: 50px;
+            width: 100%;
+            background: gray;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .bottom{
+            height: 400px;
+            width: 100%;
+            margin-top: 10px;
+        }
+        b{
+            margin-left: 20px;
+            margin-top: 20px;
+            box-sizing: border-box;
+            color: rgb(22, 15, 15);
+        }
+        .inp{
+            height: 30px;
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        .btn{
+            margin-left: 38%;
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            background: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="top">Company Details</div>
+        <div class="bottom">
+            <b>Company Email</b><sup>*</sup><small>(here you'll also get successful paypal transaction Details)</small>
+            <input type="email" placeholder="ramsakalpatel2000@gmail.com" class="inp"><br><br>
+            <b>Company Name</b><sup>*</sup>
+            <input type="text" placeholder="codeDaddy Company" class="inp">
+            <br><br>
+            <b>Company Phone</b><sup>*</sup>
+            <input type="number" placeholder="1234 4356 6543" class="inp">
+            <br><br>
+            <b>Company Tex Number</b><sup>*</sup>
+            <input type="text" placeholder="ACN456HJL" class="inp"><br><br>
+            <input type="submit" value="Save Details" class="btn">
+            
+        </div>
+    </div>
+</body>
+</html>
