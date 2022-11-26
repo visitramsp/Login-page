@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer
+        {
+            height: 700px;
+            width: 1000px;
+            background:linear-gradient(45deg,green,lightgreen,blue);
+            margin: 25px auto;
+            box-shadow:1px 5px 25px 3px black;
+            padding-top:15px ;
+            box-sizing: border-box;
+        }
+        #box-outer
+        {
+            height: 600px;
+            width: 800px;
+            background:white;
+            margin: 0px auto;
+            margin-top: 30px;
+            box-sizing: border-box;
+            padding: 70px;
+            
+        }
+        .text-box
+        {
+            height: 50px;
+            width: 100%;
+            
+            font-size: 25px;
+            line-height: 50px;
+
+        }
+        .input-outer
+        {
+            height: 450px;
+            width: 100%;
+        
+           
+
+        }
+        .a
+        {
+            float: left;
+            margin-top: 20px;
+        }
+        .b
+        {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .box
+        {
+            height: 30px;
+            width: 250px;
+            background-color: #e8eaed;
+            border: none;
+            border-radius: 7px;
+           
+        }
+        .box1
+        {
+            width: 610px;
+            background-color: #e8eaed;
+            border: none;
+            border-radius: 7px;
+           
+        }
+        ::placeholder
+        {
+            line-height: 50px;
+            padding-left:10px ;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="box-outer">
+            
+                <div class="text-box">GET IN TOUCH</div>
+                <div class="input-outer">
+                    <div class="a" >
+                        Tell us your name <br><input type="text" class="box" placeholder="Enter Your name.">
+                    </div>
+                    <div class="a" style="margin-left: 100px;">
+                        Enter Your Email <br><input type="email" class="box" placeholder="Enter Your email.">
+                    </div><br/><br>
+                    <div class="b" style="float: left;">Your Webside <br><input type="text" style="width: 610px;" class="box" placeholder="http://"></div>
+                    <div class="b" style="margin-top: 20px;">
+                       Message <br> <textarea style="margin-top: 20px;"  class="box1" cols="30" rows="5" placeholder="Your message here..."></textarea>
+                    </div>
+                    <input type="smbmit" style="background-color:greenyellow;height: 30px;text-align: center;margin-left: 200px;margin-top: 20px;border: none;" value="SUBMIT" name="" id="">
+                </div>
+          
+        </div>
+    </div>
+</body>
+</html>
