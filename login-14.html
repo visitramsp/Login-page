@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #f5d95c;
+        }
+        .outer{
+            height: 500px;
+            width: 400px;
+            margin: 20px auto;
+        }
+        .top{
+            height: 100px;
+            width: 100%;
+            text-align: center;
+        }
+        h1{
+            color: white;
+            font-size: 30px;
+        }
+        p{
+            position: relative;
+            top: -10px;
+            color: rgb(241, 222, 222);
+            font-size: 20px;
+        }
+        .bottom{
+            height: 400px;
+            width: 100%;
+        }
+        .inner{
+            height: 250px;
+            width: 100%;
+            background: white;
+            position: relative;
+            top: 30px;
+            box-shadow: 0 0 15px 5px black;
+        }
+        .btn1{
+            height: 30px;
+            width: 100px;
+            background: #8dc302;
+            border: none;
+            margin-top: 30px;
+        }
+        .inp{
+            height: 30px;
+            width: 80%;
+            margin-left: 9%;
+            margin-top: 25px;
+            border: 1px solid #f5d95c;
+            padding-left: 10px;
+        }
+        .inp2{
+            height: 30px;
+            width: 80%;
+            margin-left: 9%;
+            margin-top: 15px;
+            border: 1px solid #f5d95c;
+            padding-left: 10px;
+        }
+        .btn{
+            height: 35px;
+            width: 100px;
+            background: #8dc302;
+            border: none;
+            margin-top: 20px;
+            margin-left: 270px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="top">
+           <h1> CSS Simple Login Form</h1>
+           <p>Easy to customize and re-useable form</p>
+        </div>
+        <div class="bottom">
+            <div class="inner">
+                <input type="submit" value="Lets Login" class="btn1"><br>
+                <input type="text" placeholder="Username" class="inp"><br>
+                <input type="password" placeholder="Password" class="inp2"> <br>
+                <input type="submit" value="Login" class="btn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
