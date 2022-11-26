@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(#248ab2, #bd59d6);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .outer{
+            height: 500px;
+            width: 1000px;
+            margin: 20px auto;
+        }
+        .top{
+            height: 100px;
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+            padding-top: 20px;
+            color: rgb(219, 210, 210);
+        }
+        p{
+            text-align: center;
+            position: relative;
+            top: -10px;
+            color: rgb(219, 210, 210);
+        }
+        .bottom{
+            height: 400px;
+            width: 100%;
+        }
+        .left{
+            height: 400px;
+            width: 450px;
+            float: left;
+        }
+        .main{
+            height: 400px;
+            width: 100px;
+            float: left;
+        }
+        .right{
+            height: 400px;
+            width: 450px;
+            float: left;
+        }
+        .inner{
+            height: 250px;
+            width: 350px;
+            background: white;
+            margin-left: 75px;
+            margin-top: 25px;
+        }
+        .t{
+            height: 80px;
+            width: 100%;
+            background: white;
+            
+        }
+        .t h3{
+            padding-top: 15px;
+            padding-left: 20px;
+            color: rgb(160, 156, 156);
+        }
+        .t h4{
+            position: relative;
+            top: -15px;
+            color: rgb(167, 164, 164);
+            left: 20px;
+        }
+        .bott{
+            height: 180px;
+            width: 350px;
+            font-size: 9px;
+        }
+        .inp{
+            margin-top: 30px;
+            margin-left: 30px;
+            height: 30px;
+            width: 80%;
+            border-radius: 5px;
+            padding-left: 10px;
+            border: 1px solid gray;
+        }
+        .inp1{
+            margin-top: 12px;
+            margin-left: 30px;
+            height: 30px;
+            width: 80%;
+            border-radius: 5px;
+            padding-left: 10px;
+            border: 1px solid gray;
+        }
+        .btn{
+            margin-top: 12px;
+            margin-left: 30px;
+            height: 35px;
+            width: 84%;
+            border-radius: 5px;
+            padding-left: 10px;
+            border: 1px solid gray;
+            background: #35b1e1;
+            color: white;
+            font-weight: bold;
+        }
+        .boot2{
+            height: 100px;
+            width: 100%;
+            margin-top: 5px;
+        }
+        .a{
+            height:50px;
+            width: 100%;
+            text-align: center;
+            padding-top: 20px;
+            box-sizing: border-box;
+            color: white;
+            font-weight: bold;
+        }
+        .b{
+            height: 50px;
+            width: 100%;
+        }
+        .x{
+            height: 30px;
+            width: 100px;
+            background: darkblue;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 85px;
+            margin-top: 10px;
+            float: left;
+        }
+        .y{
+            height: 30px;
+            width: 100px;
+            background: skyblue;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 15px;
+            margin-top: 10px;
+            float: left;
+        }
+        .z{
+            height: 30px;
+            width: 100px;
+            background: red;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 15px;
+            margin-top: 10px;
+            float: left;
+        }
+        .line{
+            margin-top: 100px;
+            margin-left: 50px;
+            height: 200px;
+            width: 10px;
+            border-left: 1px solid gray;
+        }
+        .inner1{
+            height: 370px;
+            width: 350px;
+            background: white;
+            margin-top: 30px;
+        }
+        .row2{
+            height: 290px;
+            width: 100%;
+        }
+        .columns{
+            height: 290px;
+            width: 100%;
+        }
+        textarea{
+            margin-top: 15px;
+            margin-left: 30px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="top">
+            <h2><span style="font-weight: bold; color:white;">Bootstrap</span> Login & Register Form</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero sunt ratione reprehenderit. Quo magni at deserunt? Quisquam,
+                <br> tempore et unde delectus in veritatis </p>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div class="inner">
+                    <div class="t">
+                        <h3>Login to uor site</h3>
+                        <h4>Enter username and password to log in</h4>
+                    </div>
+                    <div class="bott">
+                        <input type="text" placeholder="Username" class="inp"><br>
+                        <input type="password" placeholder="Password" class="inp1"><br>
+                        <input type="submit" value="Sign in" class="btn">
+                    </div>
+                </div>
+                <div class="boot2">
+                    <div class="a">...or login with</div>
+                    <div class="b">
+                        <div class="x">Facebook</div>
+                        <div class="y">Twitter</div>
+                        <div class="z">Google Plus</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="line"></div>
+            </div>
+            <div class="right">
+                <div class="inner1">
+                    <div class="t">
+                        <h3>Login up now</h3>
+                        <h4>Fill in the form below to get instant access</h4>
+                    </div>
+                    <div class="row2">
+                        <div class="columns">
+                            <input type="text" placeholder="First Name..." class="inp"><br>
+                            <input type="text" placeholder="Last Name..." class="inp1"><br>
+                            <input type="email" placeholder="Eemail..." class="inp1"><br>
+                            <textarea cols="37" rows="3"></textarea><br>
+                            <input type="submit" value="Sign me" class="btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
