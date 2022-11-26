@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+        body{
+            background-image: url(img/flower.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .outer{
+            height: 500px;
+            width: 300px;
+            background: #ffffff;
+            margin: 50px auto;
+            border-radius: 10px;         
+        }
+        h2{
+            padding-top: 60px;
+            text-align: center;
+            color: #552e65;
+            font-size: 28px;
+        }
+        .inp{
+            height: 35px;
+            width: 200px;
+            margin-left: 15%;
+            padding-left: 10px;
+            border-radius: 15px;
+            border: none;
+            /* border: 1px solid wheat; */
+            box-shadow: 0 0 10px 10px rgb(232, 230, 230);
+        }
+        .inp1{
+            height: 35px;
+            width: 200px;
+            margin-left: 15%;
+            padding-left: 10px;
+            border-radius: 15px;
+            border: none;
+            margin-top: 15px;
+            /* border: 1px solid wheat; */
+            box-shadow: 0 0 10px 10px rgb(232, 230, 230);
+        }
+        .btn{
+            height: 35px;
+            width: 120px;
+            border-radius: 30px;
+            margin-top: 15px;
+            margin-left: 100px;
+            border: none;
+            background: #bd59d6;
+        }
+        ::placeholder{
+            color: #552e65;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        p{
+            text-align: center;
+            color: gray;
+            padding-top: 20px;
+        }
+        .icon{
+            margin-left: 120px;
+            box-shadow: 0 0 10px 10px rgb(232, 230, 230);
+            font-size: 25px;
+            color: blue;
+            background: white;
+            border-radius: 10px;
+        }
+        .icon1{
+            margin-left: 10px;
+            box-shadow: 0 0 10px 10px rgb(232, 230, 230);
+            font-size: 25px;
+            color: red;
+            background: white;
+            border-radius: 10px;
+        }
+        h4{
+            text-align: center;
+            padding-top: 80px;
+            box-sizing: border-box;
+            color: #552e65;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h2>Sign In</h2>
+        <input type="email" placeholder="username or email" class="inp"><br>
+        <input type="password" placeholder="password" class="inp1"><br>
+        <input type="submit" value="SIGN IN" class="btn"><br>
+        <p>Or login with</p>
+        <div class="img">
+            <ion-icon name="logo-facebook" class="icon"></ion-icon>
+            <ion-icon name="logo-google" class="icon1"></ion-icon>
+        </div>
+        <h4>Sign Up</h4>
+    </div>
+</body>
+</html>
