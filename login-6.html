@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: skyblue;
+        }
+        .outer{
+            height: 350px;
+            margin: 100px auto;
+            width: 500px;
+            background: white;
+            border-right: 20px solid rgb(69, 69, 251);
+        }
+        h2{
+            padding-top: 30px;
+            padding-left: 60px;
+        }
+        span{
+            margin-left: 60px;
+        }
+        .inp{
+            margin-left: 60px;
+            height: 30px;
+            width: 70%;
+            border-radius: 5px;
+            border: 0px;
+            background: rgb(216, 207, 207);
+        }
+        .me{
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+        b{
+            padding-left: 10px;
+        }
+        b a{
+            padding-left: 100px;
+            text-decoration: none;
+            color: rgb(69, 69, 251);
+        }
+        .btn{
+            margin-top: 30px;
+            margin-left: 60px;
+            width: 70%;
+            height: 35px;
+            border-radius: 5px;
+            border: 0px;
+            background: rgb(69, 69, 251);
+            font-weight: bold;
+            color: white;
+
+        }
+        .btn:hover{
+            background: rgb(6, 6, 216);
+            color: white;
+            font-weight: bold;
+            transition: all .8s;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h2>
+            ACCOUNT LOGIN
+        </h2>
+        <span>USERNAME</span><br>
+        <input type="text" class="inp">
+        <br><br>
+        <span>PASSWORD</span><br>
+        <input type="text" class="inp">
+        <br>
+        <input type="checkbox" class="me"><b>Remember Me</b> <b><a href="">forget Password?</a></b><br>
+        <input type="submit" value="LOG IN" class="btn">
+    </div>
+</body>
+</html>
