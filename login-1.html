@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(img/song.avif);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .outer{
+            height: 400px;
+            width: 500px;
+            background: rgba(251, 8, 243, 0.3);
+            margin: 100px auto;
+        }
+        p{
+            font-size: 20px;
+            color: gray;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .inp{
+            height: 30px;
+            width: 300px;
+            margin-left: 100px;
+            border-radius: 5px;
+            border-top: 0px;
+            border-bottom: 5px solid black;
+            background: rgba(251, 8, 243, 0.1);
+            padding-left: 10px;
+        }
+        .inp:hover{
+            border-bottom: 5px solid skyblue;
+            background: rgb(205, 245, 144);
+            transition: all 1s;
+        }
+        .inp:hover{
+            border: opx;
+        }
+        ::placeholder{
+            color: black;
+            font-size: 25px;
+        }
+        .btn{
+            height: 38px;
+            width: 100px;
+            background: rgba(25, 243, 5, 0.3);
+            border-bottom: 5px solid black;
+            border-radius: 5px;
+            border-top: 0px;
+            margin-left: 100px;
+            margin-top: 10px;
+            font-weight: bold;
+            color: white;
+            font-size: 20px;
+        }
+        .btn:hover{
+            background: black;
+            border-bottom: 5px solid aqua;
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <p>Login to your IDL</p>
+        <input type="text" placeholder="username" class="inp"><br>
+        <input type="text" placeholder="password" class="inp" style="margin-top: 10px;"><br>
+        <input type="submit" value="LOGIN" class="btn">
+
+    </div>
+</body>
+</html>
